@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+
     <title>Manufacturing Order Management System</title>
 </head>
 
@@ -13,34 +16,40 @@
 
     <h2>Dashboard</h2>
 
-    <div>
-        <h3>Total Orders</h3>
-        <p id="totalOrders">4</p>
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>Total Orders</h3>
+            <p id="totalOrders">4</p>
+        </div>
+
+        <div class="card">
+            <h3>Received</h3>
+            <p id="receivedOrders">1</p>
+        </div>
+
+        <div class="card">
+            <h3>In Production</h3>
+            <p id="productionOrders">1</p>
+        </div>
+
+        <div class="card">
+            <h3>Testing</h3>
+            <p id="testingOrders">1</p>
+        </div>
+
+        <div class="card">
+            <h3>Ready</h3>
+            <p id="readyOrders">1</p>
+        </div>
+
     </div>
 
-    <div>
-        <h3>Received</h3>
-        <p id="receivedOrders">1</p>
-    </div>
-
-    <div>
-        <h3>In Production</h3>
-        <p id="productionOrders">1</p>
-    </div>
-
-    <div>
-        <h3>Testing</h3>
-        <p id="testingOrders">1</p>
-    </div>
-
-    <div>
-        <h3>Ready</h3>
-        <p id="readyOrders">1</p>
-    </div>
 
     <h2>Recent Orders</h2>
 
-    <table border="1">
+    <table>
+
         <thead>
             <tr>
                 <th>Order ID</th>
@@ -54,6 +63,7 @@
         </thead>
 
         <tbody>
+
             <tr>
                 <td>1</td>
                 <td>TechWerk GmbH</td>
@@ -93,8 +103,12 @@
                 <td>Ready</td>
                 <td>30 Oct 2026</td>
             </tr>
+
         </tbody>
+
     </table>
 
 </body>
+
 </html>
+       

@@ -12,8 +12,26 @@
 
 <body>
 
-    <h1>Manufacturing Order Management System</h1>
+    <!-- Navigation Bar -->
+    <nav>
 
+        <h2>Manufacturing ERP</h2>
+
+        <div>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#orders">Orders</a>
+            <a href="#customers">Customers</a>
+            <a href="#machines">Machines</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Main Heading -->
+    <h1 id="dashboard">Manufacturing Order Management System</h1>
+
+
+    <!-- Dashboard -->
     <h2>Dashboard</h2>
 
     <div class="dashboard">
@@ -46,11 +64,13 @@
     </div>
 
 
-    <h2>Recent Orders</h2>
+    <!-- Orders Section -->
+    <h2 id="orders">Recent Orders</h2>
 
     <table>
 
         <thead>
+
             <tr>
                 <th>Order ID</th>
                 <th>Customer</th>
@@ -60,7 +80,9 @@
                 <th>Status</th>
                 <th>Expected Delivery</th>
             </tr>
+
         </thead>
+
 
         <tbody>
 
@@ -107,8 +129,35 @@
         </tbody>
 
     </table>
+
+
+    <!-- Customers Section -->
+    <h2 id="customers">Customers</h2>
+
+    <div class="section-box">
+
+        <p><strong>TechWerk GmbH</strong> — Germany</p>
+        <p><strong>AutoMech Solutions</strong> — United Kingdom</p>
+        <p><strong>Indus Automation</strong> — India</p>
+
+    </div>
+
+
+    <!-- Machines Section -->
+    <h2 id="machines">Machines</h2>
+
+    <div class="section-box">
+
+        <p><strong>CNC Precision Machine</strong> — CNC Automation</p>
+        <p><strong>Automated Welding Unit</strong> — Welding Automation</p>
+        <p><strong>Industrial Assembly Robot</strong> — Robotic Automation</p>
+
+    </div>
+
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
+
 </body>
 
 </html>
-       

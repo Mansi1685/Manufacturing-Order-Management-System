@@ -13,6 +13,7 @@ h1 {
     display: flex;
     gap: 20px;
     margin-bottom: 35px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -30,6 +31,7 @@ h1 {
 .card p {
     font-size: 28px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 table {
@@ -47,4 +49,8 @@ td {
 
 th {
     background: #e9ecef;
+}
+
+tr:hover {
+    background: #f8f9fa;
 }
